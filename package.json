@@ -1,0 +1,19 @@
+{
+  "name": "com.lkwarwick.bazaar",
+  "version": "0.1.0",
+  "displayName": "Bazaar",
+  "description": "Collection of assets for various purposes.",
+  "unity": "6000.3",
+  "unityRelease": "13f1",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "keywords": [],
+  "author": {
+    "name": "lkwarwick"
+  },
+  "dependencies": {
+    "com.unity.inputsystem": "1.6.3",
+    "com.unity.addressables": "2.9.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Bazaar.Editor",
+    "references": [
+        "GUID:d7aa57ff2918ef00d9fc2f4c5031bf26"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ]
+}

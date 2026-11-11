@@ -1,0 +1,6 @@
+{
+	"name": "Bazaar",
+	"references": [
+		"UnityEngine.UI"
+	]
+}
