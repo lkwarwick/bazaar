@@ -18,6 +18,7 @@ Assembly: `Bazaar`
 | Addressable animation playback | Loading, preloading, caching, and releasing `SpriteAnimationDefinition` assets by Addressables key; async playback returns the spawned `GameObject`. | `AnimationPlayer.PlayAddressable`, `PlayAddressableAsync`, `PreloadAsync`, `ReleaseCachedDefinitions` | `Runtime/Bazaar/Animation/AnimationPlayer.cs` |
 | Sprite pixel and sheet utilities | Adjusting sprite pivots, finding pixels, converting pixel coordinates, recoloring/removing pixels, outlining, and dividing sprite sheets. | `SpriteExtensions.PivotCenter`, `CenterSprite`, `GetPixelPoint`, `TryGetPixelPoint`, `PixelPointToOffset`, `RemovePixelPoints`, `ToColor`, `AddOutline`, `DivideSpriteSheet`, `DivideSpriteSheetFlat`, `GetPixelWidth` | `Runtime/Bazaar/Extensions/SpriteExtensions.cs` |
 | Subclass selector attribute | Marking a string field for a subclass selection UI in the Unity Inspector. The selected value is an assembly-qualified type name. | `SubclassSelectorAttribute(Type baseType)` | `Runtime/SubclassSelectorAttribute.cs` |
+| VisualElement callbacks | Registering mouse, focus, click, and navigation-submit callbacks across UI Toolkit platforms; enter, exit, and submit actions are optional. | `VisualElementExtensions.AddCallbacks`, `VisualElementExtensions.RemoveCallbacks` | `Runtime/Bazaar/UIToolkit/VisualElementExtensions.cs` |
 
 ## Runtime: `Bazaar2D`
 

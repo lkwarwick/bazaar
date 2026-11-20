@@ -21,9 +21,9 @@ namespace Bazaar
         /// <param name="onSubmit"></param>
         public static void AddCallbacks(
             this VisualElement element,
-            Action onEnter,
-            Action onExit,
-            Action onSubmit
+            Action onEnter = null,
+            Action onExit = null,
+            Action onSubmit = null
         )
         {
             if (element == null)
